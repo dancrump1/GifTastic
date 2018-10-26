@@ -22,7 +22,7 @@ function createButton(){
 
 
 $("#add-search").on("click",function(){
-    userSearchInput= $(".userEntry").val();
+    userSearchInput= $("#userEntry").val();
     createButton();
     
 })
@@ -30,7 +30,7 @@ $("#add-search").on("click",function(){
 $(document).on("click", ".addedGifButton", function(){
 
     var gifDiv = $("#imagesGoHere").empty();
-    userSearchInput = $(".userEntry").val();
+    userSearchInput = $("#userEntry").val();
     
 
     gifyAPI  = "https://api.giphy.com/v1/gifs/search?q="+userSearchInput+"&api_key=qr9eTBdtXgyT0eIUBLPwKsSA5IvgDtxF&limit=15";
