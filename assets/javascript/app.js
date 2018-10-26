@@ -33,7 +33,7 @@ $(document).on("click", ".addedGifButton", function(){
     userSearchInput = $(".userEntry").val();
     
 
-    gifyAPI  = "http://api.giphy.com/v1/gifs/search?q="+userSearchInput+"&api_key=qr9eTBdtXgyT0eIUBLPwKsSA5IvgDtxF&limit=15";
+    gifyAPI  = "https://api.giphy.com/v1/gifs/search?q="+userSearchInput+"&api_key=qr9eTBdtXgyT0eIUBLPwKsSA5IvgDtxF&limit=15";
     $.ajax({
         url: gifyAPI,
         method:"GET"
