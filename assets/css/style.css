@@ -1,3 +1,29 @@
-#imagesGoHere{
+
+.card{
+    margin-top: 5px;
+}
+
+
+.classbody{
+    padding: 5px;
+}
+
+.card-header{
+    text-align: center;
+}
+#add-search{
+    margin: 10px;
+}
+.card-body{
+    background-color: rgb(226, 219, 219);
+    padding: 30px;
+}
+
+.addedGifButton{
+    margin: 10px;
+}
+
+#holdsGifsAndRating{
     float: left;
+    margin: 20px;
 }
